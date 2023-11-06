@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var number = prompt("Podj liczbę 1-F na C 2- C na F");
+        var temperatura;
+        var FnaC;
+        var CnaF
+        if(number == 1){
+            temperatura = prompt("podaj temperatue w F");
+            FnaC = (parseInt(temperatura) -32) * 5/9
+            alert ("wynik to" +FnaC)
+
+        }
+        else{
+            temperatura = prompt("podaj temperatue w C");
+            CnaF = parseInt(temperatura) * 9/5 +32
+            alert ("wynik to" +CnaF)
+
+        }
+    </script>
+</body>
+</html>
