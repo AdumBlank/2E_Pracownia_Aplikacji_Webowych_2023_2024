@@ -1,0 +1,17 @@
+Zad 1
+forma uproszczona  if (ocena >= 2) {alert("ocena pozytywna");}
+forma rozbudowana 
+
+if (ocena >= 2) 
+{
+alert("ocena pozytywna");
+}else 
+alert("ocena negatywna")
+
+Instrukcja przetwarzania (ocena >= 2)?{alert("ocena pozytywna");}:alert("ocena negatywna")
+
+1.b
+2.c
+3.d
+4.b
+5.a
