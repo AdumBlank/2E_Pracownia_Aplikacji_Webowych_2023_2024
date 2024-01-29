@@ -1,0 +1,9 @@
+Adam Blank 
+
+1.a 2.c 3.b 4.d 5.c
+
+Zadanie 1
+
+For: Wykorzystać kiedy potrzeba wykonać polenie odpowiednią ilość razy.
+While: Wykorzystać kiedy sprawdzamy czy warunek jes ciądle logiczny
+Do while: Wykorzystać tak samo jak while. Rórznica jest taka że zadanie jest wykonane przed sprawdzeniem warunku.
