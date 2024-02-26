@@ -1,0 +1,13 @@
+Zadanie 1
+Jednowymiarowe
+-Przechowywanie listy imion uczniów
+Wielowymiarowe
+-Wygl¹d planszy do gry w szachy/warcaby
+Asocjalne
+-Zarz¹dzanie danymi 
+
+1. C
+2. A
+3. D
+4. B
+5. C

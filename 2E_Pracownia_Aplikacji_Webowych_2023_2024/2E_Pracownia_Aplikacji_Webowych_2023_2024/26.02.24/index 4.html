@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ 
+
+<script>
+    var tablica = [];
+ 
+    var start = 10;
+    for (var i = 0; i < 5; i++) {
+        tablica[i] = [];
+        for (var a = 0; a < 5; a++) {
+            tablica[i][a] = start++;
+        }
+    }
+    document.write('<table border="1">');
+	
+    for (var row = 0; row < 5; row++) {
+	
+        document.write('<tr>');
+		
+        for (var col = 0; col < 5; col++) {
+		
+            document.write('<td>' + tablica[row][col] + '</td>');
+        }
+        document.write('</tr>');
+    }
+    document.write('</table>');
+
+</script>
+ 
+</body>
+</html>

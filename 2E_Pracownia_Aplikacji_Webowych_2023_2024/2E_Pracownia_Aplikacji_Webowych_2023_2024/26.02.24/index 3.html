@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adam Blank 2e</title>
+</head>
+<body>
+ 
+ 
+<script>
+    var nazwiskoTablcia = [];
+    var nazwisko = "Blank";
+	
+    for (var i = 0; i < nazwisko.length; i++) {
+        nazwiskoTablcia.push(nazwisko[i]);
+    }
+
+    document.write('<ul>');
+	
+    for (var j = nazwiskoTablcia.length - 1; j >= 0; j--) {
+        document.write('<li>' + nazwiskoTablcia[j] + '</li>');
+    }
+    document.write('</ul>');
+
+</script>
+ 
+</body>
+</html>
