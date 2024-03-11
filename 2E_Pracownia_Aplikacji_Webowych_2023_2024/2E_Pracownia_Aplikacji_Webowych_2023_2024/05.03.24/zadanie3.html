@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // zasanie 3
+let tablica = [];
+let n = 10;
+ 
+for (let i = 0; i < n; i++) {
+    let litera = prompt(`Podaj literę ${i + 1}:`);
+    tablica.push(litera);
+}
+ 
+let wyraz = prompt("Podaj 10-literowy wyraz:");
+tablica = wyraz.split("");
+ 
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
+ 
+let tablicaLosowa = shuffleArray(tablica);
+console.log(tablicaLosowa);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

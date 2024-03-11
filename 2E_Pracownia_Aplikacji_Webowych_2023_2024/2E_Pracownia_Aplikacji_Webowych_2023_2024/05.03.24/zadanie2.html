@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script> 
+    // zadanie 2
+let tablica = [];
+let n = parseInt(prompt("Podaj liczbę elementów tablicy:"));
+for (let i = 0; i < n; i++) {
+    let element = parseInt(prompt(`Podaj wartość elementu ${i + 1}:`));
+    tablica.push(element);
+}
+ 
+let srednia = tablica.reduce((a, b) => a + b, 0) / tablica.length;
+ 
+tablica.sort((a, b) => a - b);
+ 
+let tablicaKwadraty = tablica.map(x => x * x);
+ 
+let parzyste = tablica.filter(x => x % 2 === 0).length;
+let nieparzyste = tablica.length - parzyste;
+ 
+let podzielnePrzez3 = tablica.filter(x => x % 3 === 0).length;
+ 
+console.log("Średnia wartość elementów:", srednia);
+console.log("Posortowane elementy:", tablica);
+console.log("Kwadraty elementów:", tablicaKwadraty);
+console.log("Ilość liczb parzystych:", parzyste);
+console.log("Ilość liczb nieparzystych:", nieparzyste);
+console.log("Ilość liczb podzielnych przez 3:", podzielnePrzez3);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
