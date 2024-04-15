@@ -1,0 +1,13 @@
+Pozytywy:
+Unikanie powtarzalności kodu
+Ułatwienie testowania kodu
+
+Negatywy:
+Ze zbyt dużą ilością funkcji kod może stać się nie czytelny
+Zbyt wiele funkcji może spowolnić kod
+
+1.A
+2.C
+3.D
+4.B
+5.C
