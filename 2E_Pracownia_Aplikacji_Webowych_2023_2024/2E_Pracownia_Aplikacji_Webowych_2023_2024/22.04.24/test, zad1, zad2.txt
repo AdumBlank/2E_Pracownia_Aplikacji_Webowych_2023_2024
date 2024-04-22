@@ -1,0 +1,18 @@
+1B
+2C
+3A
+4A
+5D
+
+zad 1
+
+onLoad - kiedy plik się załaduje onLoad="alert('Strona się w pełni załadowała')"
+onSubmit - kiedy kliknięty przycisk submit onSubmit="alert('wysłano ankiete')"
+onMouseClick - funkcja strzelania w grze
+onMouseOver - zmiana koloru przycisku
+onMouseOut - powrót do poprzedniego koloru przyciku
+
+zad 2
+
+mousedown - naciśnięcie klawisza myszy
+mouseover - kursor znalazł się na elemencie
