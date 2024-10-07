@@ -1,0 +1,80 @@
+body 
+{
+    font-family: garamond;
+}
+
+#baner
+{
+    background-color: tomato;
+    color: white;
+    text-align: center;
+    width: 80%;
+    height: 80px;
+}
+
+.main
+{
+    width: 80%;
+    height: 600px;
+}
+
+#Chat
+{
+    border: solid 1px tomato;
+    padding: 15px;
+    height: 470px;
+    overflow: scroll;
+}
+
+#blokboczny
+{
+    background-color: coral;
+    width: 20%;
+    height: 582px;
+    float: right; 
+    width: 350px;
+}
+
+
+footer
+{
+    background-color: tomato;
+    color: white;
+    text-align: center;
+}
+
+img{
+    border-radius: 50%;
+    margin: 0px 10px 0px 10px;
+}
+
+.wypowiedzi
+{
+    border-radius: 5px;
+    width: 90%;
+    height: 70px;
+    padding: 2%;
+    margin: 3px;
+}
+
+.JolantaWyp
+{
+    background-color: #EEE;
+    display: flex;
+}
+
+.KrzsiekWypowiedzi
+{
+    background-color: #CCC;
+    text-align: right;
+    
+}
+
+button 
+{
+    background-color: tomato;
+    border: solid 1px darkred;
+    margin: 5px;
+    font-weight: bold;
+}
+
